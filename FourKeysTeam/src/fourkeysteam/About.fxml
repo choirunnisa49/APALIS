@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #252525;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fourkeysteam.AboutController">
+   <children>
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #C4C4C4;">
+         <children>
+            <JFXButton layoutX="536.0" layoutY="11.0" onAction="#handleButtonHome" text="Home" textFill="#252525" />
+            <JFXButton layoutX="479.0" layoutY="11.0" onAction="#handleButtonSignin" text="Sign In" textFill="#252525" />
+            <JFXButton layoutX="418.0" layoutY="11.0" onAction="#handleButtonSignup" text="Sign Up" textFill="#252525" />
+            <JFXButton layoutX="365.0" layoutY="11.0" text="About" textFill="#252525" />
+         </children>
+      </AnchorPane>
+      <JFXButton layoutX="47.0" layoutY="128.0" prefHeight="230.0" prefWidth="492.0" style="-fx-background-color: #C4C4C4;" text="Aplikasi Jual Beli Sayur (APALIS)  adalah suatu aplikasi perangkat lunak berbasisweb yang bertujuan untuk mempermudah konsumen dalam mendapatkan sayuran segar dan mempermudah penjual maupun petani sayur dalam menjualkan sayuran sekaligus dapat memperkirakan berapa jumlah sayuran yang dibutuhkan pasar (konsumen).     APALIS  ini dimaksudkan untuk dapat menjadi wadah bagi konsumen, penjual sayur,dan petani sayur dalam melakukan transaksi jual beli sayur yang nantinya secaratidak langsung dapat melakukan transaksi tanpa harus berada di satu tempat yangsama, seperti : pasar tradisional, pasar modern, dsb. Oleh karena itu, kami membuat sebuah aplikasi yang nantinya dapat mewadahi transaksi itu semua." textFill="#c4c4c4" />
+      <Label layoutX="60.0" layoutY="83.0" text="About" textFill="#c4c4c4">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="66.0" layoutY="154.0" text="Aplikasi Jual Beli Sayur (APALIS)  adalah suatu aplikasi perangkat lunak berbasis web " textAlignment="CENTER" />
+      <Label layoutX="66.0" layoutY="171.0" text="yang bertujuan untuk mempermudah konsumen dalam mendapatkan sayuran segar " />
+      <Label layoutX="62.0" layoutY="188.0" text="dan mempermudah penjual maupun petani sayur dalam menjualkan sayuran sekaligus" />
+      <Label layoutX="72.0" layoutY="206.0" text=" dapat memperkirakan berapa jumlah sayuran yang dibutuhkan pasar (konsumen). " />
+      <Label layoutX="71.0" layoutY="250.0" text="APALIS  ini dimaksudkan untuk dapat menjadi wadah bagi konsumen, penjual sayur," />
+      <Label layoutX="84.0" layoutY="267.0" text="dan petani sayur dalam melakukan transaksi jual beli sayur yang nantinya secara" />
+      <Label layoutX="76.0" layoutY="284.0" text="tidak langsung dapat melakukan transaksi tanpa harus berada di satu tempat yang" />
+      <Label layoutX="96.0" layoutY="301.0" text="sama, seperti : pasar tradisional, pasar modern, dsb. Oleh karena itu, kami " />
+      <Label layoutX="82.0" layoutY="318.0" text="membuat sebuah aplikasi yang nantinya dapat mewadahi transaksi itu semua." />
+   </children>
+</AnchorPane>

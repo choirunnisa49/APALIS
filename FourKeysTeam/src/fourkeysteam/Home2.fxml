@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #252525;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fourkeysteam.Home2Controller">
+   <children>
+      <JFXButton layoutX="111.0" layoutY="250.0" prefHeight="76.0" prefWidth="387.0" style="-fx-background-color: #C4C4C4;" textFill="#c4c4c4" />
+      <Label layoutX="202.0" layoutY="151.0" text="APALIS">
+         <font>
+            <Font name="System Bold" size="60.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.47936506725492933" endY="1.0" startX="0.47619049889700754" startY="0.09206350417364212">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <JFXButton fx:id="btSearch" buttonType="RAISED" layoutX="332.0" layoutY="276.0" onAction="#handleButtonSearch" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: #252525;" text="SEARCH" textFill="#c4c4c4" />
+      <JFXButton fx:id="btOrder" buttonType="RAISED" layoutX="161.0" layoutY="276.0" onAction="#handleButtonOrder" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: #252525;" text="ORDER" textFill="#c4c4c4" />
+      <Label layoutX="244.0" layoutY="222.0" text="Aplikasi Jual-Beli Sayur" textFill="#c4c4c4" />
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #C4C4C4;">
+         <children>
+            <JFXButton fx:id="btSignout" layoutX="524.0" layoutY="10.0" onAction="#handleButtonSignOut" text="Sign Out" />
+            <JFXButton fx:id="btEditProfile" layoutX="451.0" layoutY="10.0" onAction="#handleButtonEditProfile" text="Edit Profile" />
+            <JFXButton fx:id="btTrending" layoutX="388.0" layoutY="10.0" onAction="#handleButtonTrending" text="Trending" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

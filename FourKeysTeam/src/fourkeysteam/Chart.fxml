@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #252525;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fourkeysteam.ChartController1">
+   <children>
+      <JFXButton layoutX="44.0" layoutY="89.0" prefHeight="279.0" prefWidth="510.0" style="-fx-background-color: #C4C4C4;" textFill="#c4c4c4" />
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #C4C4C4;">
+         <children>
+            <JFXButton fx:id="btKembali" layoutX="536.0" layoutY="11.0" onAction="#handleButtonKembali" style="-fx-background-color: #C4C4C4;" text="Home" textFill="#252525" />
+         </children>
+      </AnchorPane>
+      <BarChart fx:id="bcSayur" layoutX="44.0" layoutY="104.0" prefHeight="264.0" prefWidth="382.0">
+        <xAxis>
+          <CategoryAxis fx:id="sumbuX" side="BOTTOM" tickLabelFill="#252525" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="sumbuY" side="LEFT" tickLabelFill="#252525" />
+        </yAxis>
+      </BarChart>
+      <JFXButton fx:id="btView" buttonType="RAISED" layoutX="448.0" layoutY="323.0" onAction="#handleButtonViewAnother" style="-fx-background-color: #252525;" text="Another View" textFill="#c4c4c4" />
+      <Label layoutX="62.0" layoutY="46.0" text="Trending" textFill="#c4c4c4">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

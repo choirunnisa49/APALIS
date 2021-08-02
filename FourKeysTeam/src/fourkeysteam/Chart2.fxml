@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #252525;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fourkeysteam.Chart1Controller">
+   <children>
+      <JFXButton layoutX="44.0" layoutY="89.0" prefHeight="279.0" prefWidth="510.0" style="-fx-background-color: #C4C4C4;" textFill="#c4c4c4" />
+      <LineChart fx:id="lcSayur" layoutX="44.0" layoutY="104.0" prefHeight="264.0" prefWidth="382.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <JFXButton fx:id="btSedikit" layoutX="494.0" layoutY="327.0" onAction="#handleButtonSedikit" style="-fx-background-color: #252525;" text="Less" textFill="#c4c4c4" />
+      <JFXButton fx:id="btBanyak" layoutX="488.0" layoutY="298.0" onAction="#handleButtonLainnya" style="-fx-background-color: #252525;" text="More" textFill="#c4c4c4" />
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #C4C4C4;">
+         <children>
+            <JFXButton fx:id="btKembali" layoutX="536.0" layoutY="11.0" onAction="#handleButtonKembali" style="-fx-background-color: #C4C4C4;" text="Back" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="62.0" layoutY="46.0" text="Trending" textFill="#c4c4c4">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

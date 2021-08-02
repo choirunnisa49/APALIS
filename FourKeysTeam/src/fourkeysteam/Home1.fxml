@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fourkeysteam.Home1Controller">
+   <children>
+      <AnchorPane layoutY="1.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #252525;">
+         <children>
+            <Label fx:id="apalis" layoutX="202.0" layoutY="151.0" text="APALIS">
+               <font>
+                  <Font name="System Bold" size="60.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.9555555616106306" startX="1.0">
+                     <stops>
+                        <Stop color="BLACK" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <JFXButton layoutX="111.0" layoutY="250.0" prefHeight="76.0" prefWidth="387.0" style="-fx-background-color: #C4C4C4;" textFill="#c4c4c4" />
+            <JFXButton fx:id="search" buttonType="RAISED" layoutX="332.0" layoutY="276.0" onAction="#handleButtonSearch" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: #252525;" text="SEARCH" textFill="#c4c4c4" />
+            <JFXButton fx:id="order" buttonType="RAISED" layoutX="161.0" layoutY="276.0" onAction="#handleButtonOrder" prefHeight="25.0" prefWidth="128.0" style="-fx-background-color: #252525;" text="ORDER" textFill="#c4c4c4" />
+            <Label layoutX="244.0" layoutY="222.0" text="Aplikasi Jual-Beli Sayur" textFill="#c4c4c4" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="45.0" prefWidth="600.0" style="-fx-background-color: #C4C4C4;">
+         <children>
+            <JFXButton fx:id="signin" layoutX="479.0" layoutY="11.0" onAction="#handleButtonSignin" style="-fx-background-color: #C4C4C4;" text="Sign In" textFill="#252525" />
+            <JFXButton fx:id="signup" layoutX="418.0" layoutY="11.0" onAction="#handleButtonSignup" style="-fx-background-color: #C4C4C4;" text="Sign Up" textFill="#252525" />
+            <JFXButton fx:id="signup1" layoutX="365.0" layoutY="11.0" onAction="#handleButtonAbout" style="-fx-background-color: #C4C4C4;" text="About" textFill="#252525" />
+            <JFXButton fx:id="signin1" layoutX="536.0" layoutY="11.0" onAction="#handleButtonSignin" style="-fx-background-color: #C4C4C4;" text="Home" textFill="#252525" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
